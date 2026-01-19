@@ -22,9 +22,9 @@ from pymol import cmd as pm
 from matplotlib import pyplot as plt
 from xdrugpy.hotspots import load_ftmap, plot_euclidean_hca
 
-BASE_PATH = "/home/jaimilson/Downloads/3B24_B_-_ADRIAN/*.pdb"
-S0_CUTOFF = 20
-OUTPUT = "3B24_B_S0_20_Euclidean.png"
+BASE_PATH = "[path]/*.pdb"
+S0_CUTOFF = [number]
+OUTPUT = "[FILENAME]_Euclidean.png"
 
 EUCLIDEAN_SEL = f"*.K15_* AND p.S0>{S0_CUTOFF}"
 
